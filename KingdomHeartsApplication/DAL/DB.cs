@@ -11,7 +11,7 @@ namespace KingdomHeartsApplication.DAL
 {
     public class DB : DbContext
     {
-        public DB() : base("DB")
+        public DB() : base("DataBase")
         {
 
         }

@@ -1,0 +1,42 @@
+﻿@model KingdomHeartsApplication.Models.KingdomHeartsReview
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>KingdomHeartsReview</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.HighestDifficulty)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.HighestDifficulty)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FavoriteGame)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FavoriteGame)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Rating)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Rating)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Username }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
