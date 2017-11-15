@@ -9,9 +9,6 @@ namespace KingdomHeartsApplication.Models
     public class KingdomHeartsReview
     {
         [Key]
-        [Required(ErrorMessage = "Please Create a Unique ID for your Username.")]
-        [StringLength(25)]
-        [Display(Name = "Username")]
         public string Username { get; set; }
         [Display(Name = "Difficulty")]
         public string HighestDifficulty { get; set; }
