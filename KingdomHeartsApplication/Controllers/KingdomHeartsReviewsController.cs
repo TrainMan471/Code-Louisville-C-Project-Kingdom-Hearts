@@ -132,7 +132,20 @@ namespace KingdomHeartsApplication.Controllers
                 
                 
 
-        }   
+        }
+        //Controller Method for Chain of Memories View Page
+        public ActionResult DetailTwo()
+        {
+            ViewBag.SeriesTitleTwo = "Kingdom Hearts: Chain of Memories";
+            ViewBag.HtmlDscTwo = "Guide Sora as he climbs Castle Oblivion, gaining memories and losing others.";
+            ViewBag.PlayableCharacterTwo = "Sora, Riku";
+            ViewBag.ReleaseYearTwo = 2004;
+            ViewBag.GameDevelopersTwo = new string[] { "Script: Tetsuya Nomura", "Director: Tetsuya Nomura", "Composer:Yoko" };
+            ViewBag.Worlds = new string[] { "Destiny Islands", "Traverse Town", "Wonderland", "Olympus Coliseum", "Twilight Town","Castle Oblivion", "Agrabah", "Halloween Town", "Monstro", "Neverland", "Hallow Bastion", "100 Acre Wood",  };
+            return View();
+
+        }
+
 
 
         protected override void Dispose(bool disposing)
