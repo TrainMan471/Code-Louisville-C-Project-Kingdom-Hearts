@@ -206,13 +206,14 @@
     </Content>
     <Content Include="Views\Web.config" />
     <Content Include="Views\_ViewStart.cshtml" />
-    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Shared\_LayoutOrigin.cshtml" />
     <Content Include="Views\KingdomHeartsReviews\Create.cshtml" />
     <Content Include="Views\KingdomHeartsReviews\Delete.cshtml" />
     <Content Include="Views\KingdomHeartsReviews\Details.cshtml" />
     <Content Include="Views\KingdomHeartsReviews\Edit.cshtml" />
     <Content Include="Views\KingdomHeartsReviews\Index.cshtml" />
     <Content Include="Views\KingdomHeartsReviews\Detail.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
