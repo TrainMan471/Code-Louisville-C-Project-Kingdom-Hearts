@@ -1,0 +1,31 @@
+﻿body {
+   background-color: whitesmoke;
+   
+}
+
+table {
+    border:groove;
+    color: teal;
+}
+
+th {
+    color: aqua;
+}
+
+div.form-horizontal {
+    border:ridge;
+    color:darkgreen;
+}
+
+dl {
+    border: groove;
+    color:darkcyan;
+}
+
+img {
+    float:right;
+    height:400px;
+    width:400px;
+}
+
+

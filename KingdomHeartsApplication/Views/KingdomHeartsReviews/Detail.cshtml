@@ -1,0 +1,48 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="~/Styles/prettify.css" />
+    <title></title>
+</head>
+<body>
+    <div>
+        <h1>Game Title: @ViewBag.SeriesTitle</h1>
+        <h2>Release Date : @ViewBag.ReleaseYear</h2>
+        
+        <br />
+        <h5>Game Description:</h5>
+        <div>@ViewBag.HtmlDescription
+        <img src="~/Images/khone.png" />
+        </div>
+
+        <h5>Game Developers</h5>
+        <div>
+            <ul>
+                @foreach (var developer in ViewBag.GameDevelopers)
+                {
+                    <li>@developer</li>
+                }
+                </ul>
+            </div>
+            <h5>Worlds</h5>
+             <div>
+                 <ul>
+                     @foreach (var world in ViewBag.Worlds)
+                     {
+                         <li>@world</li>
+                     }
+                 </ul>
+
+             </div>
+
+            
+
+    </div>
+</body>
+</html>

@@ -116,6 +116,25 @@ namespace KingdomHeartsApplication.Controllers
             return RedirectToAction("Index");
         }
 
+        //Adding some more methods to update the site with some Kingdom Hearts Gallery Pages
+        //Adding Controller Method for Kingdom Hearts One View Page
+        public ActionResult Detail()
+        {
+            ViewBag.SeriesTitle = "Kingdom Hearts";
+            ViewBag.HtmlDescription = "Guide a young boy named Sora has he travels to many Disney worlds and fights off terrible creatures that are called 'Heartless'";
+            ViewBag.PlayableCharacter = "Sora";
+            ViewBag.ReleaseYear = 2002;
+            ViewBag.GameDevelopers = new string[] { "Script: Tetsuya Nomura", "Director: Tetsuya Nomura", "Composer:Yoko" };
+            ViewBag.Worlds = new string[] { "Destiny Islands", "Traverse Town", "Wonderland", "Olympus Coliseum", "Deep Jungle", "Agrabah", "Halloween Town", "Monstro", "Neverland", "Hallow Bastion", "100 Acre Wood", "End of the World" };
+
+            return View();
+
+                
+                
+
+        }   
+
+
         protected override void Dispose(bool disposing)
         {
             if (disposing)

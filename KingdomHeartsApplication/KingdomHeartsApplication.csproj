@@ -170,6 +170,16 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Images\daybreakTown.jpg" />
+    <Content Include="Images\kh1.5.jpeg" />
+    <Content Include="Images\kh2.5.jpg" />
+    <Content Include="Images\kh2.8.jpg" />
+    <Content Include="Images\khbbs.jpg" />
+    <Content Include="Images\khcoded.png" />
+    <Content Include="Images\khcom.jpg" />
+    <Content Include="Images\khdays.png" />
+    <Content Include="Images\khone.png" />
+    <Content Include="Images\khtwo.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
@@ -186,6 +196,7 @@
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
+    <Content Include="Styles\prettify.css" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -201,6 +212,7 @@
     <Content Include="Views\KingdomHeartsReviews\Details.cshtml" />
     <Content Include="Views\KingdomHeartsReviews\Edit.cshtml" />
     <Content Include="Views\KingdomHeartsReviews\Index.cshtml" />
+    <Content Include="Views\KingdomHeartsReviews\Detail.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
