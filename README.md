@@ -7,3 +7,5 @@ I used the demo shown to us in class about using MVC and Entity Framework togeth
 
 As of right now, the project works, but the code needs refactoring in some places and some lines of code are never actually used.
 
+I Had a lot of fun making this project!
+
