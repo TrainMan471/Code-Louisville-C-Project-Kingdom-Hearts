@@ -7,6 +7,7 @@ namespace KingdomHeartsApplication.Migrations
     {
         public override void Up()
         {
+            //Creating The tables for Kingdom Hearts Game and Kingdom Hearts Review Models; Even though Kingdom Hearts Game Model is never actually used.
             CreateTable(
                 "dbo.KingdomHeartsGame",
                 c => new

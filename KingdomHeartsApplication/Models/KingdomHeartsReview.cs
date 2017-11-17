@@ -6,6 +6,8 @@ using System.ComponentModel.DataAnnotations;
 
 namespace KingdomHeartsApplication.Models
 {
+    //Declaring a Kingdom Hearts Review Model where the user can enter a username, favorite Kingdom Hearts Game, level of Difficulty and user rated score
+    //of chose Kingdom Hearts Game
     public class KingdomHeartsReview
     {
         [Key]
@@ -17,6 +19,7 @@ namespace KingdomHeartsApplication.Models
         [Display( Name = "Uer's Rated Score of Game")]
         public int Rating { get; set; }
 
+        //Declared this navigation property because There can be many reviews, and there are many Kingdom Hearts Games.
         public virtual ICollection<KingdomHeartsGame> Game { get; set; }
     }
 }

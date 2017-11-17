@@ -10,8 +10,22 @@
     @Html.ActionLink("Create New", "Create")
 </p>
 <head>
+    <link rel="stylesheet" href="~/Content/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/Content/Site.css" />
     <link rel="stylesheet" href="~/Styles/prettify.css"
 </head>
+<div class="navbar-collapse collapse">
+    <ul class="nav navbar-nav">
+        <!-- Add menu items here -->
+        <li><a href="@Url.Action("Detail","KingdomHeartsReviews")">View Kingdom Hearts</a></li>
+        <li><a href="@Url.Action("DetailTwo","KingdomHeartsReviews")">View:KH:Chain of Memories</a></li>
+
+        <li></li>
+
+
+
+    </ul>
+</div>
 
 <table class="table">
     <tr>

@@ -18,7 +18,7 @@
             <!-- Add menu items here -->
             <li><a href="@Url.Action("Index","KingdomHeartsReviews")">View Reviews</a></li>
             <li><a href="@Url.Action("Create","KingdomHeartsReviews")">Create a Review</a></li>
-            <li><a href="@Url.Action("DetailTwo","KingdomHeartsReviews")">KH2</a></li>
+            <li><a href="@Url.Action("DetailTwo","KingdomHeartsReviews")">KH:Chain of Memories</a></li>
             
             <li></li>
 
@@ -28,28 +28,28 @@
     </div>
     
             <div>
-                <h1>Game Title: @ViewBag.SeriesTitle</h1>
-                <h2>Release Date : @ViewBag.ReleaseYear</h2>
+                <h1 style="font-style:italic;">Game Title: @ViewBag.SeriesTitle</h1>
+                <h2 style="font-style:italic;">Release Date : @ViewBag.ReleaseYear</h2>
 
                 <br />
-                <h5>Game Description:</h5>
-                <div>
+                <h5 style="font-style:italic;">Game Description:</h5>
+                <div style="font-style:italic;">
                     @ViewBag.HtmlDescription
-                <img src="~/Images/khone.png" />
+                <img src="~/Images/khone.png" class="img-responsive" />
             </div>
 
-            <h5>Game Developers</h5>
+            <h5 style="font-style:italic;">Game Developers</h5>
             <div>
-                <ul>
+                <ul style="font-style:italic;">
                     @foreach (var developer in ViewBag.GameDevelopers)
                     {
                         <li>@developer</li>
                     }
                 </ul>
             </div>
-            <h5>Worlds</h5>
+            <h5 style="font-style:italic;">Worlds</h5>
             <div>
-                <ul>
+                <ul style="font-style:italic;">
                     @foreach (var world in ViewBag.Worlds)
                     {
                         <li>@world</li>
@@ -61,5 +61,7 @@
 
 
         </div>
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
 </body>
 </html>

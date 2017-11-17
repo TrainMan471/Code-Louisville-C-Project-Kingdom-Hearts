@@ -120,6 +120,7 @@ namespace KingdomHeartsApplication.Controllers
         //Adding Controller Method for Kingdom Hearts One View Page
         public ActionResult Detail()
         {
+            //Declaring ViewBag Properties
             ViewBag.SeriesTitle = "Kingdom Hearts";
             ViewBag.HtmlDescription = "Guide a young boy named Sora has he travels to many Disney worlds and fights off terrible creatures that are called 'Heartless'";
             ViewBag.PlayableCharacter = "Sora";
@@ -136,12 +137,13 @@ namespace KingdomHeartsApplication.Controllers
         //Controller Method for Chain of Memories View Page
         public ActionResult DetailTwo()
         {
+            //Declaring ViewBag Properties
             ViewBag.SeriesTitleTwo = "Kingdom Hearts: Chain of Memories";
-            ViewBag.HtmlDscTwo = "Guide Sora as he climbs Castle Oblivion, gaining memories and losing others.";
+            ViewBag.HtmlDscTwo = "Guide Sora as he climbs Castle Oblivion, searching for his true memories";
             ViewBag.PlayableCharacterTwo = "Sora, Riku";
             ViewBag.ReleaseYearTwo = 2004;
             ViewBag.GameDevelopersTwo = new string[] { "Script: Tetsuya Nomura", "Director: Tetsuya Nomura", "Composer:Yoko" };
-            ViewBag.Worlds = new string[] { "Destiny Islands", "Traverse Town", "Wonderland", "Olympus Coliseum", "Twilight Town","Castle Oblivion", "Agrabah", "Halloween Town", "Monstro", "Neverland", "Hallow Bastion", "100 Acre Wood",  };
+            ViewBag.WorldsTwo = new string[] { "Destiny Islands", "Traverse Town", "Wonderland", "Olympus Coliseum", "Twilight Town","Castle Oblivion", "Agrabah", "Halloween Town", "Monstro", "Neverland", "Hallow Bastion", "100 Acre Wood",  };
             return View();
 
         }
