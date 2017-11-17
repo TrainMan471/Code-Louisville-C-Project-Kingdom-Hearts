@@ -11,4 +11,6 @@ As of right now, the project works, but the code needs refactoring in some place
 
 I Had a lot of fun making this project!
 
+UPDATE: There is a typo in in the "Index.cshtml" file where it says "Uer's Rated Score of Game" where is supposed to say "User's Rated Score of Game". Trying to find source of typo
+
 
